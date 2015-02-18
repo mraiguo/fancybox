@@ -10,6 +10,8 @@ License: http://www.fancyapps.com/fancybox/#license
 Copyright (c) 2012 Janis Skarnelis - janis@fancyapps.com
 
 ##Npm specific
+\*\* NOTE: I didn't realize npm's limitations on versioning.  They only allow three numbers.  At first I was aiming to keep the versioning equal to fancybox's, but this is no longer possible without deleting the repo and starting over.  You can find the fancybox version this repo uses in either package.json's "original-version" property, or in a browser console by running: $.fancybox.version.
+
 Install
 ```
 npm install fancybox --save-dev
